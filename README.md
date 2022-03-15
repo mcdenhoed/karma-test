@@ -47,7 +47,7 @@ However, the error code, at least on my computer (TM), is 0:
 
 After some experimentation I tried replacing the following:
 
-```json
+```js
       reporters: [
         {type: "text-summary"},
         {type: "html"},
@@ -56,7 +56,7 @@ After some experimentation I tried replacing the following:
 
 with the following, swapping the order of the reporters array:
 
-```json
+```js
       reporters: [
         {type: "html"},
         {type: "text-summary"},
